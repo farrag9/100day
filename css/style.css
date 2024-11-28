@@ -131,6 +131,7 @@ header .container .icon a:hover{
 
 .days .weeks {
     text-align: center;
+    position: relative;
 }
 /* week1 */
 .days .weeks .week1 {
@@ -210,6 +211,18 @@ margin-bottom: 60px;
     background-color: rgb(80, 245, 89);
     display:inline-block;
     text-align: center;
+}
+
+.days .weeks .totle-days {
+position: sticky;
+background-color: #002fff;
+color: white;
+left: 0;
+top: 0;
+width: fit-content;
+padding: 5px 8px;
+text-transform: uppercase;
+border-radius: 3px;
 }
 
 /* end days */
