@@ -1,0 +1,223 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+@media (min-width:767px){
+    .container{
+        width: 760px; 
+    }
+ }
+
+ @media (min-width:992px){
+    .container{
+        width: 970px; 
+    }
+ }
+
+ @media (min-width:1400px){
+    .container{
+        width: 1170px; 
+    }
+ }
+
+
+
+header {
+    padding-top:20px;
+    padding-bottom:20px;
+    position:absolute;
+    width: 100%;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fcfcfc;
+}
+
+header .container .logo  {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+} 
+header .container .icon  {
+    display: flex;
+} 
+
+header .container .icon li   {
+    padding: 20px;
+
+}
+header .container .icon li  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+
+}
+header .container .logo:hover,
+header .container .icon a:hover{
+    color: #8c00ff;
+}
+
+/* start landing */
+.landing {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.landing .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+
+}
+
+.landing .container h2 {
+    font-size: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.landing .container h2 span {
+    font-size: bold;
+    font-size: 50px;
+    color: #002fff;
+}
+
+.landing .container p {
+    font-size: 18px;
+}
+.landing .container i {
+    font-size: 50px;
+}
+/* end landing  */
+
+/* strat days */
+.days {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.days .weeks {
+    text-align: center;
+}
+/* week1 */
+.days .weeks .week1 {
+padding: 30px;
+margin: 50px;
+transition: 0.3s;
+
+}
+.days .weeks .week1 h2 {
+font-size: 50px;
+color: #002fff;
+transition: 0.3s;
+margin-bottom: 60px;
+
+}
+.days .weeks .week1 span{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #777 ;
+    border-radius: 50%;
+    padding: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(80, 245, 89);
+}
+/* week 2  */
+.days .weeks .week2 {
+padding: 30px;
+margin: 50px;
+transition: 0.3s;
+
+}
+.days .weeks .week2 h2 {
+font-size: 50px;
+color: #002fff;
+transition: 0.3s;
+margin-bottom: 60px;
+
+}
+.days .weeks .week2 span{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #777 ;
+    border-radius: 50%;
+    padding: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(80, 245, 89);
+    display:inline-block;
+}
+/* week 3  */
+.days .weeks .week3 {
+padding: 30px;
+margin: 50px;
+transition: 0.3s;
+
+}
+.days .weeks .week3 h2 {
+font-size: 50px;
+color: #002fff;
+transition: 0.3s;
+margin-bottom: 60px;
+
+}
+.days .weeks .week3 span{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #777 ;
+    border-radius: 50%;
+    padding: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(80, 245, 89);
+    display:inline-block;
+}
+
+/* end days */
+
+/* start footer  */
+
+footer {
+padding-top: 50px;
+padding-bottom: 50px;
+background-image: url(../images/landing.jpg);
+background-size: cover;
+color: white;
+text-align: center;
+}
+footer p a {
+    font-size: 22px;
+    color: #002fff;
+    text-decoration: none;
+}
+
+/* end footer  */
