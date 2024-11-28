@@ -52,7 +52,6 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #fcfcfc;
 }
 
 header .container .logo  {
@@ -68,6 +67,7 @@ header .container .icon li   {
     padding: 20px;
 
 }
+
 header .container .icon li  a {
     text-decoration: none;
     font-size: 20px;
@@ -78,12 +78,21 @@ header .container .logo:hover,
 header .container .icon a:hover{
     color: #8c00ff;
 }
+@media (max-width:767px){
 
+    header .container .logo {
+       font-size: 19px;
+    }
+    header .container .icon li a {
+        font-size: 15px;
+    }
+ }
 /* start landing */
 .landing {
     background-image: url(../images/landing.jpg);
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }
 .landing .container {
     position: relative;
@@ -200,6 +209,7 @@ margin-bottom: 60px;
     color: white;
     background-color: rgb(80, 245, 89);
     display:inline-block;
+    text-align: center;
 }
 
 /* end days */
